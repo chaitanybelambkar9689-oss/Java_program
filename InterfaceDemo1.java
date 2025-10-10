@@ -1,0 +1,17 @@
+interface Demo
+{
+  int No =11;
+  void Display();
+}
+class Hello implements Demo
+{
+    //error
+
+}
+class InterfaceDemo1 
+{
+    public static void main(String A[])
+    {
+        Hello hobj =new Hello();
+    }
+}
